@@ -1,0 +1,353 @@
+/* Coming soon page css */
+
+.coming-soon{
+   background-color: #022345;
+   padding: 200px;
+}
+.body{
+    font-family: Poppins;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+/* Top section.navigation{} */
+
+.container{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 9px 1px black;
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+    max-width: 100%;
+    padding-right: 40px;
+}
+.logo{
+    padding-left: 30px;
+    cursor: pointer;
+    max-width: 20%;
+}
+
+.btn-sign-in{
+    cursor: pointer;
+    background-color:#022345;
+    border: none;
+    color: #f9fbfc;
+    padding: 10px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+.btn-sign-in:hover{
+    background-color: #FBA536;
+    transition: all 0.3s ease 0s;
+    
+}
+.nav{
+    list-style: none;
+    
+   
+}
+.nav li {
+
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+.nav li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+   
+}
+.nav li a:hover{
+    color: #FBA536;
+    background-color: #022345;
+    padding: 4px 20px;
+    border-radius: 15px;
+}
+.btn{
+    cursor: pointer;
+    background-color:#fefeff;
+    border: none;
+    color: #022345;
+    padding: 10px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: #FBA536;
+    transition: all 0.1s ease 0s;
+    box-shadow: 0px 0px 0px 2px #FBA536;
+
+    
+}
+
+
+
+
+/* Header Section */
+.header{ 
+    
+    position: relative;
+   
+    justify-content:center;
+    display: flex;
+    padding: 20px;
+}
+.main-head{
+    max-width: 60%;
+    background-color: #022345;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+}
+
+
+.child-head{
+    max-width: 40%;
+    padding-left: 10px;    
+    background-color: #022345;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 43px;
+    color: white;
+}
+.about-makeeazy{
+    justify-content:center;
+    max-width: 90%;
+    margin-left: 40px;
+    background-color: #022345;
+    border-radius: 15px;
+    padding: 30px;
+    color: white;
+    align-content: center;
+
+}
+
+/* Services we offer */
+
+.services{
+    
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-heading{
+    background-color: #022345;
+    color: #ffffff;
+    padding-top:55px;
+    padding-bottom:40px;
+    border-radius: 0 15px 15px 0;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-orientation: use-glyph-orientation ;
+}
+
+
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content:left;
+    background-color: #c8c7c6;
+    margin-left:20px;
+    padding:20px;
+}
+.navigation li a{
+    text-decoration: none;
+}
+/* why choose us*/
+
+.why-choose-us-main{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.why-choose-us-heading{
+    background-color: #022345;
+    color: #f9fbfc;
+    padding-top:55px;
+    padding-bottom:40px;
+    border-radius: 0 15px 15px 0;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-orientation: use-glyph-orientation ;
+}
+.why-choose-us{
+    padding-top: 60px;
+    padding-left:50px;
+    justify-content: center;
+}
+.content-images{
+    max-width: 80%;
+}
+.side-button1{
+    max-width: 30%;
+    cursor: pointer;
+}
+
+/* Blog section */
+
+.blog-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.blog-heading{
+    background-color: #022345;
+    color: #f9fbfc;
+    padding-top:140px;
+    padding-bottom:40px;
+    border-radius: 0 15px 15px 0;
+    font-size: 17px;
+    writing-mode: vertical-lr;
+    text-orientation: use-glyph-orientation ;
+}
+.blog{
+    padding-top: 60px;
+    padding-left: 40px;
+    justify-content: center;
+    display: flex;
+}
+.side-button2{
+    max-width: 30%;
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+.main-footer{
+    padding-top: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #022345;
+    max-width: 100%;
+    max-height: 30%;
+    box-shadow: 0 0 10px 1px #0b0b0b;
+    color: antiquewhite;
+    padding-top: 20px;
+}
+.makeeazy-footer{
+    padding-top:20px;
+    padding-left: 30px;
+    
+}
+.child-footer{
+    
+
+    
+
+}
+.information{
+    
+
+}
+.info-ul {
+    list-style-type:none
+
+}
+.info-ul li a{
+    text-decoration: none;
+    list-style-type:none;
+    color: white;
+}
+.info-ul li a:hover{
+    
+    color: #FBA536;
+}
+.contact-us{
+   
+}
+.contact-us-ul{
+    list-style-type:none;
+}
+.contact-us-ul li:hover{
+    list-style-type:none;
+    color: #FBA536;
+}
+.tell-us-about{
+    list-style-type:none;
+    justify-content: flex-end;
+}
+.call-icon{
+    display: flex;  
+}
+
+.msg-icon{
+    display: flex;
+}
+
+.call-icon1{
+   padding-left: 20px;
+}
+
+.msg-icon1{
+    padding-left: 20px;
+}
+
+
+.social-icons{
+    padding-left: 6px;
+}
+
+.input {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+}
+.input:hover{
+    border:none;
+}
+.btn-submit{
+    cursor: pointer;
+    background-color:#fefeff;
+    border: none;
+    color: #022345;
+    padding: 10px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+.btn-submit:hover{
+    background-color: #FBA536;
+    transition: all 0.1s ease 0s;
+    box-shadow: 0px 0px 0px 2px #FBA536;
+
+    
+}
+ .p {
+    justify-content: center;
+    background-color: #022345;
+    margin: 0px;
+    color: #f9fbfc;
+    padding-top: 10px;
+    padding-left: 500px;
+
+}
+/* why choose us */
+.why-choose-us{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
